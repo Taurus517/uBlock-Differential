@@ -1,5 +1,5 @@
 # uBlock
-《Improved Differential Cryptanalysis on uBlock》
+《Differential Cryptanalysis on uBlock》
 
 ##non-uniform step differentrails
 
