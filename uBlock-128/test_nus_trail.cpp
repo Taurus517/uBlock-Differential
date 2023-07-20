@@ -81,7 +81,7 @@ int main(){
         
         //write
         ifstream fw1;
-        fw1.open("nus_trail", ios::in); //
+        fw1.open("nus_trail.cpp", ios::in); //
         ofstream fw2;
         fw2.open("temp.cpp", ios::out);
 
@@ -104,7 +104,7 @@ int main(){
         ifstream fw22;
         fw22.open("temp.cpp", ios::in);
         ofstream fw11;
-        fw11.open("nus_trail", ios::out); //
+        fw11.open("nus_trail.cpp", ios::out); //
         while(getline(fw22, del)){
             fw11 << del << endl;
         }
@@ -114,7 +114,7 @@ int main(){
 
 
         ofstream fw;
-        fw.open("nus_trail", ios::app); //
+        fw.open("nus_trail.cpp", ios::app); //
         string strc = "fprintf(fp, \"ASSERT NOT(%s = 0hex" + str + ");\\n\", str0.c_str());";
         fw << strc << endl;
         fw << del1 << endl << del2 << endl << del3 << endl << del4 << endl;
